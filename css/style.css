@@ -1,0 +1,41 @@
+header {
+    padding: 30px 0;
+}
+
+.cabecalho {
+    position: relative;
+    width: 1450px;
+    margin: 0 auto;
+}
+
+.title {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000000;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration: none;
+}
